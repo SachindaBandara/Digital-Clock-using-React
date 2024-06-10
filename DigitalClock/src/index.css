@@ -1,0 +1,29 @@
+body {
+  background-image: url(assets/battlefield-background-mhy96t5w8ntjlsan.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+
+  /* POTIONAL */
+
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+}
+
+.clock-container {
+  width: 100vw;
+  padding: 10px 0;
+}
+
+.clock {
+  color: white;
+  font-size: 6rem;
+  font-weight: bold;
+  font-family: monospace;
+  text-align: center;
+  text-shadow: 3px 3px 5px hsl(0, 0%, 0%, 0.75);
+}
