@@ -6,25 +6,25 @@ function DigitalClock() {
   useEffect(() => {
     const intervalId = setInterval(() => {
       setTime(new Date());
-    }, 1000);
+    }, 1000); //seconds count down speed
     return () => {
       clearInterval(intervalId);
     };
   }, []);
 
   function formatTime() {
-    let hours = time.getHours();
-    const minutes = time.getMinutes();
-    const seconds = time.getSeconds();
+    let hours = time.getHours(); // Get the Hour value
+    const minutes = time.getMinutes(); // Get the Minutes value
+    const seconds = time.getSeconds(); // Get the seconds value
     const meridiem = hours >= 12 ? "PM" : "AM";
 
     hours = hours % 12 || 12;
-
+    // Create template strings
     return `${padZero(hours)}:${padZero(minutes)}:${padZero(
       seconds
     )} ${meridiem}`;
   }
-
+  // check the seconds number is less than 10 and adding zero before the number
   function padZero(number) {
     return (number < 10 ? "0" : "") + number;
   }
