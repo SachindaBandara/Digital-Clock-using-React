@@ -24,7 +24,7 @@ function DigitalClock() {
       seconds
     )} ${meridiem}`;
   }
-  
+
   // check the seconds number is less than 10 and adding zero before the number
   function padZero(number) {
     return (number < 10 ? "0" : "") + number;
