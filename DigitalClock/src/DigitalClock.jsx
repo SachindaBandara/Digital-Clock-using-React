@@ -13,9 +13,12 @@ function DigitalClock() {
   }, []);
 
   function formatTime() {
-    let hours = time.getHours(); // Get the Hour value
-    const minutes = time.getMinutes(); // Get the Minutes value
-    const seconds = time.getSeconds(); // Get the seconds value
+    // Get the Hour value
+    let hours = time.getHours(); 
+    // Get the Minutes value
+    const minutes = time.getMinutes(); 
+    // Get the seconds value
+    const seconds = time.getSeconds(); 
     const meridiem = hours >= 12 ? "PM" : "AM";
 
     hours = hours % 12 || 12;
