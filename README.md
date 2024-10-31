@@ -1,6 +1,9 @@
-# Digital Clock using React 🕒 
+# Digital Clock using React.js 🕒 
 
 A simple and elegant digital clock built with React. 
+
+## Built With 💻
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
 ## Table of Contents 📚 
 
@@ -36,5 +39,5 @@ Open your browser and go to http://localhost:3000 to see the digital clock in ac
 
 3. Responsive design suitable for various devices.
   
-
-## Feel free to tweak the sections to match your project's specifics and personal style. Happy coding!🎉
+## 
+## 😎Feel free to tweak the sections to match your project's specifics and personal style. Happy coding!🎉
