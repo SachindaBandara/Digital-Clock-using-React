@@ -22,8 +22,7 @@ A simple and elegant digital clock built with React.
 ## Usage
 
 Start the development server:
-    ```bash
-    
+
     npm run dev
 
 Open your browser and go to http://localhost:3000 to see the digital clock in action.
