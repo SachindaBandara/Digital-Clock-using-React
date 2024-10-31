@@ -11,7 +11,7 @@ A simple and elegant digital clock built with React.
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your_username/digital-clock-react.git
+   https://github.com/SachindaBandara/Digital-Clock-using-React.git
 2. Navigate into the project directory:
    ```bash
    cd DigitalClock
@@ -35,3 +35,5 @@ Open your browser and go to http://localhost:3000 to see the digital clock in ac
 
 3. Responsive design suitable for various devices.
   
+
+##Feel free to tweak the sections to match your project's specifics and personal style. Happy coding!
